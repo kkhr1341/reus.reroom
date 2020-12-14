@@ -100,10 +100,6 @@ img {
     margin-top: 5px;
 }
 
-.i-header+main {
-    padding-top: 100px;
-}
-
 #main-section {
     border-bottom: solid #000 50px;
 }
@@ -208,24 +204,24 @@ img {
     display: block;
     width: max-content;
     margin: auto;
-    border: solid #4C5318 1px;
+    border: solid #4c5318 1px;
     border-radius: 10px;
     background-color: #fff;
-    color: #4C5318;
+    color: #4c5318;
     padding: 10px 40px;
     text-decoration: none;
-    transition: all .3s ease-in .2s;
+    transition: all 0.3s ease-in 0.2s;
 }
 
 .i-more-btn:hover {
-    background-color: #4C5318;
+    background-color: #4c5318;
     color: #fff;
     transform: translatey(-3px);
 }
 
 .i-more-btn:active {
     background-color: #fff;
-    color: #4C5318;
+    color: #4c5318;
     transform: translatey(0);
     transition: all 0s ease-in 0s;
 }
@@ -288,24 +284,24 @@ img {
     font-size: 15px;
     display: inline-block;
     width: max-content;
-    border: solid #4C5318 1px;
+    border: solid #4c5318 1px;
     border-radius: 10px;
-    background-color: #4C5318;
+    background-color: #4c5318;
     color: #fff;
     padding: 3px 15px;
     text-decoration: none;
     transform: translatex(3px) translateY(-3px);
-    transition: all .1s ease .1s;
+    transition: all 0.1s ease 0.1s;
 }
 
 .i-more-staff:hover {
     background-color: #fff;
-    color: #4C5318;
+    color: #4c5318;
     transform: translatex(6px) translateY(-3px);
 }
 
 .i-more-staff:active {
-    background-color: #4C5318;
+    background-color: #4c5318;
     color: #fff;
     transform: translatex(3px) translateY(-3px);
     transition: all 0s ease-in 0s;
@@ -321,6 +317,7 @@ img {
     background-color: #fff;
     max-width: 1400px;
     margin: 0 auto;
+    padding-top: 100px;
 }
 
 h2 {
@@ -375,7 +372,7 @@ h2 {
     text-align: left;
     padding: 13px 0;
     padding-left: 15px;
-    color: #4C5318;
+    color: #4c5318;
     font-size: 25px;
     font-weight: bold;
 }
@@ -409,7 +406,7 @@ h3 {
 }
 
 .c-shopinfo {
-    background-color: #FFFEEC;
+    background-color: #fffeec;
     border: solid 1px #d4baac;
     box-sizing: border-box;
 }
@@ -427,7 +424,7 @@ h3 {
 }
 
 .c-shoptel>a {
-    margin-left: .5em;
+    margin-left: 0.5em;
     font-size: 40px;
     font-weight: bold;
     text-decoration: none;
@@ -481,6 +478,15 @@ h3 {
     color: #fff;
     padding: 5px 20px;
     text-align: center;
+}
+
+.reus_btn {
+    text-decoration: none;
+    background-color: #fffeec;
+    border: 1px solid #d4baac;
+    color: #559;
+    border-radius: 0.5em;
+    padding: 0.1em 0.5em;
 }
 
 @media screen and (max-width: 767px) {
@@ -540,7 +546,15 @@ h3 {
         max-height: 1000px;
         margin: 0 10px 10px;
     }
-    .header-logo {
+    .i-header {
         display: none;
+    }
+    .c-shop {
+        padding: 0;
+    }
+    .c-shopname {
+        padding: 1em 0;
+        text-align: center;
+        font-size: 20px;
     }
 }
